@@ -1,0 +1,8 @@
+@use '../util' as *;
+
+#endMessage {
+  font-size: rem(80);
+  margin: rem(30) auto;
+  width: 80%;
+  text-align: center;
+}

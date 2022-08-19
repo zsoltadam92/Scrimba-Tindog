@@ -1,0 +1,14 @@
+@use '../util' as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: rem(400);
+  border: rem(3) solid black;
+  border-radius: rem(20);
+  background-color: white;
+
+  @media (max-width:rem(600)) {
+    width: rem(300);
+  }
+}

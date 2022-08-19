@@ -1,0 +1,37 @@
+@use '../util' as *;
+
+.main {
+  &__content {
+    margin: 0 rem(8);
+    position: relative;
+  }
+
+  &__picture img {
+    border-radius: rem(10);
+  }
+
+  &__info {
+    position: absolute;
+    bottom: 0;
+    left: rem(20);
+  }
+
+  h2 {
+    margin-bottom: rem(8);
+  }
+
+  p {
+    margin-top: 0;
+    color: #b7b7b7;
+  }
+}
+
+.badge {
+  position: absolute;
+  width: rem(234);
+  height: rem(116);
+  top: rem(70);
+  left: rem(10);
+  transform: rotate(-45deg)
+}
+

@@ -1,0 +1,26 @@
+@use '../util' as * ;
+
+.footer {
+  &__actions {
+    @include flexCenter;
+  }
+
+  &__button {
+    @include widthAndHeight(rem(72), rem(72));
+    @include flexCenter;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: rem(19.2);
+    margin: rem(16);
+    cursor: pointer;
+    border: none;
+
+    &--like:hover {
+      background-color: #DBFFF4;
+    }
+
+    &--dislike:hover {
+      background-color: #FFE7EF;
+    }
+  }
+}

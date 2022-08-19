@@ -1,0 +1,29 @@
+@use '../util' as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,*::after,*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin-bottom: 5%;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(52, 43, 56);
+  color: white;
+  @include flexCenter;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: rem(48);
+  letter-spacing: rem(5);
+}
+
+img {
+  width: 100%;
+}
